@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's With Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            background: url(/background\ img.jpg);
+            height: 1000px;
+            color: white;
+        }
+        
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 25px;
+            left: 35px;
+        }
+        
+        .left img {
+            width: 120px;
+            display: block;
+            height: 105px;
+            filter: invert(100%);
+        }
+        
+        .left p {
+            margin-top: 0px;
+            color: rgb(193, 187, 187);
+            font-size: larger;
+        }
+        
+        .mid {
+            display: block;
+            margin: 20px auto;
+            width: 33%;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            padding: 5px 10px;
+            cursor: pointer;
+            text-shadow: 5cap;
+        }
+        
+        .navbar li a {
+            color: rgba(2, 3, 4, 0.947);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: none;
+            font-size: larger;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            background-color: rgb(167, 175, 175);
+            font-size: large;
+            text-decoration: underline;
+        }
+        
+        .right {
+            /* border: 4px solid rgb(170, 20, 53); */
+            display: inline-block;
+            position: absolute;
+            top: 39px;
+            right: 40px;
+        }
+        
+        .right button {
+            width: 130px;
+            background-color: rgb(188, 55, 21);
+            cursor: pointer;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        
+        .right button:hover {
+            background-color: white;
+            background-size: 20px;
+            font-size: 14px;
+        }
+        
+        .container {
+            border: 2px solid rgb(202, 165, 165);
+            border-radius: 7%;
+            border-style: double;
+            margin: 161px 94px;
+            display: block;
+            width: 33%;
+            padding: 10px 49px;
+            text-align: center;
+        }
+        
+        .form-group {
+            margin: 5px;
+            padding: 2px;
+            width: 92%;
+        }
+        
+        .form-group input {
+            width: 65%;
+            text-align: center;
+        }
+        
+        button {
+            width: 20%;
+            margin: auto;
+            margin-right: 7%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- left  for logo-->
+        <div class="left">
+            <img src="/gymicon.png" alt="">
+            <p>health is fitness</p>
+
+
+
+        </div>
+        <!-- mid  for nevigation-->
+        <div class="mid">
+            <nav>
+                <ul class="navbar">
+
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a class="" href="#">About</a></li>
+                    <li><a class="" href="#">Fitness Calculator</a></li>
+                    <li><a class="" href="#"> Contact Us</a></li>
+                </ul>
+
+
+            </nav>
+
+
+
+        </div>
+        <!-- right for button -->
+
+        <div class="right">
+            <button class="button">
+                Call Us Now
+            </button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the best Gym in Chandrapur </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Contact Number">
+            </div>
+            <button>Submit</button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
